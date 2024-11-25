@@ -1,0 +1,123 @@
+h1{
+    color: blueviolet;
+    background-color: aqua;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 20px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px green;
+}
+h1::first-letter{color: hotpink;
+font-size: 3rem;
+}
+
+p::first-line{ color: greenyellow;
+font-size: 1.5rem;}
+#olMain{
+    list-style-image: url(./images/bjp\ 4.png);
+    color:darkgreen;
+    text-align: left;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px hotpink;
+}
+p::selection{
+    background-color: gold;
+    color: blue;
+}
+a{ 
+    font-size: 1.5rem;
+}
+a:hover{
+    background-color: brown;
+    color: seagreen;
+}
+a:link{
+    color:burlywood;
+}
+a:visited{
+    color: blue;
+}
+a:active{
+    color: seagreen;
+    background-color: red;
+
+}
+p:hover{
+    background-color: black;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+}
+p{
+    display: inline-block;
+    text-align: justify;
+    overflow: auto;
+    width: 800px;
+    height: 500px;
+    color: seagreen;
+
+}
+.olMain2{
+    color:red;
+    font-size: 1.6rem;
+
+}
+img{
+    width: 500px;
+}
+img:hover{
+    box-shadow: 5px 5px 5px black;
+    filter: drop-shadow( 10px 10px 10px black );
+    filter: blur(5px);
+    
+}
+#KCRImage{
+    width: 500px;
+}
+#KCRPara{ display: inline-block;
+    text-align: justify;
+    overflow: auto;
+    width: 800px;
+    height: 300px;
+    color: blueviolet;
+
+}
+#KTRImage{
+    width: 400px;
+    filter: invert(100%);
+    filter: drop-shadow(10px 10px 10px black);
+    filter: contrast(1000%);
+
+}
+#KCRHeading{
+    color: blueviolet;
+    font-size: 1.6rem;
+    text-align: right;
+    width: 1000px;
+}
+h2{
+    color: hotpink;
+    font-size: 1.5rem;
+}
+h2::first-letter{color: brown;
+
+}
+#revanthPara{
+    height: 500px;
+}
+#sridharBabuImage{
+    width: 500px;
+    filter: saturate(8);
+}
+#sridharPara{
+    width: 700px;
+    height: 500px;
+}
+#KTRPara{
+width: 800px;  
+height: 300px;  
+}
+#kishanPara{
+  height: 300px;  
+}
